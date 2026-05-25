@@ -16,8 +16,8 @@
     line-height: 1.5;
     font-weight: 400;
 
-    color: #242424;
-    background-color: rgba(255, 255, 255, 0.87);
+    color: var(--color-black);
+    background-color: var(--color-teal);
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -40,4 +40,13 @@ main {
 
 main:has(.back-link) {
     text-align: center;
+}
+
+.main-title-gradient {
+    display: block;
+    font-size: 2.5em;
+    background-image: linear-gradient(120deg, #bd34fe 25%, #2104dd);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }

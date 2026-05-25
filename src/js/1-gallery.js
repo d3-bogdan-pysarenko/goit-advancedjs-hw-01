@@ -72,16 +72,16 @@ const gallery = document.querySelector('.gallery');
 const imgUp = images
     .map(
         image =>
-            `<li class="gallery-item">
+    `<li class="gallery-item">
         <a class="gallery-link" href="${image.original}">
-          <img
+        <img
           class="gallery-image"
           src="${image.preview}"
           alt="${image.description}"
           loading="lazy"
           />
         </a>
-      </li>`
+    </li>`
     )
     .join('');
 
