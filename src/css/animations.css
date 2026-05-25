@@ -1,8 +1,8 @@
 @keyframes slide {
-    from {
-        transform: translateX(-140%) translateY(-50%);
-    }
-    to {
-        transform: translateX(-104%) translateY(-50%);
-    }
+  from {
+    transform: translateX(-140%) translateY(-50%);
+  }
+  to {
+    transform: translateX(-104%) translateY(-50%);
+  }
 }
