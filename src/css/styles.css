@@ -1,7 +1,3 @@
-body{
-  background-color: blueviolet;
-}
-
 /**
   |============================
   | include css partials with
@@ -9,7 +5,15 @@ body{
   |============================
 */
 /* Common styles */
-
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./animations.css');
 
 /* Sections style */
-
+@import url('./header.css');
+@import url('./vite-promo.css');
+@import url('./back-link.css');
+@import url('./home.css');
+@import url('./gallery.css');
+@import url('./form.css');
