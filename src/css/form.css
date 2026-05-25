@@ -6,13 +6,13 @@
     padding: 24px;
     max-width: 408px;
     height: 296px;
-    background-color: #fff;
+    background-color: var(--color-cards-green);
     margin: 0 auto;
 }
 
 .feedback-form label {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -69,7 +69,7 @@
     padding: 8px 16px;
     width: 95px;
     height: 40px;
-    background-color: #4e75ff;
+    background-color: var(--color-blue-nav);
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -77,9 +77,9 @@
     letter-spacing: 0.04em;
     color: #fff;
     margin-top: 8px;
-    transition: background-color 250ms linear;
+    transition: background-color 500ms linear;
 }
 
 .feedback-form button:hover {
-    background-color: #6c8cff;
+    background-color: var(--color-purple);
 }
